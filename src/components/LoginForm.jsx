@@ -1,4 +1,4 @@
-import Register from "./register";
+import Register from "./Register";
 import { useState } from "react";
 import Login from "./Login";
 
