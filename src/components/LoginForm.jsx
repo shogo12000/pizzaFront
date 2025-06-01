@@ -1,4 +1,4 @@
-import Registerum from "./Registerum";
+import Registerum from "./Registerum.jsx";
 import { useState } from "react";
 import Login from "./Login";
 
