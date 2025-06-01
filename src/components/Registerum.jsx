@@ -3,7 +3,7 @@ import { Button } from "@mui/material";
 import { Field } from "./Components";
 import { useState } from "react";
 
-export default function Register({ setLogin, setLoginForm }) {
+export default function Registerum({ setLogin, setLoginForm }) {
   const [formField, setFormField] = useState({
     email: "",
     username: "",

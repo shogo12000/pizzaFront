@@ -1,4 +1,4 @@
-import Register from "./Register";
+import Registerum from "./Registerum";
 import { useState } from "react";
 import Login from "./Login";
 
@@ -10,7 +10,7 @@ export default function LoginForm({ setLogin }) {
       {loginForm ? (
         <Login setLogin={setLogin} setLoginForm={setLoginForm} />
       ) : (
-        <Register setLogin={setLogin} setLoginForm={setLoginForm} />
+        <Registerum setLogin={setLogin} setLoginForm={setLoginForm} />
       )}
     </div>
   );
